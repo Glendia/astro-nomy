@@ -16,7 +16,7 @@ jobs:
         with:
           repository: Glendia/astro-nomy
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          ref: main # 如果主分支名为 main
+          ref: master # 如果主分支名为 main
 
       - name: Set up Git
         run: |
